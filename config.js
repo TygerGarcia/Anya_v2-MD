@@ -9,20 +9,20 @@ global.zApiKey = {// if this API key get expired then please go to https://www.f
 
 
 global.botname = process.env.BotName || "Queen Anya" 
-global.author = process.env.Author || "@PikaBotz" 
+global.author = process.env.Author || "@Versace" 
 global.packname = process.env.PackName || "Queen Anya v2 MD" 
 global.myweb = process.env.Web || "https://github.com/PikaBotz" 
 global.footer = process.env.Footer || "© Queen Anya Bot" 
-global.prefa = process.env.Prefix || ['-'] 
+global.prefa = process.env.Prefix || ['!'] 
 global.themeemoji = process.env.ThemeEmoji || "🎐" 
-global.ownername = process.env.Owner_Name || "Pika~Kun" 
-global.ownernumber = process.env.Owner_Number || "916900904828" 
+global.ownername = process.env.Owner_Name || "Versace" 
+global.ownernumber = process.env.Owner_Number || "27787896221" 
 global.adress = process.env.Continent || "Asia, India, Assam" 
 global.timezone = process.env.TimeZone || "Asia/Kolkata" 
 global.instagramId = process.env.Insta || "8.08_only_mine" 
 global.email = process.env.Email_Id || "example@example.com" 
 
-global.mongoUrl = process.env.MongoDB || "Enter"; 
+global.mongoUrl = process.env.MongoDB || "mongodb+srv://capefam522:4NsPJFcrgrmLVrot@cluster0.y01dbx2.mongodb.net/?retryWrites=true&w=majority"; 
 
 global.warns = process.env.Warns_Limits || 3; 
 
@@ -102,14 +102,14 @@ global.message = {
 
 module.exports = {
   botname: process.env.BotName || "Queen Anya", 
-  author: process.env.Author || "@PikaBotz",
+  author: process.env.Author || "@Versace",
   packname: process.env.PackName || "Queen Anya v2 MD",
   myweb: process.env.Web || "https://github.com/PikaBotz",
   footer: process.env.Footer || "© Queen Anya Bot",
-  prefa: process.env.Prefix || ['-'],
+  prefa: process.env.Prefix || ['!'],
   themeemoji: process.env.ThemeEmoji || "🎐",
-  ownername: process.env.Owner_Name || "Pika~Kun",
-  ownernumber: process.env.Owner_Number || "916900904828",
+  ownername: process.env.Owner_Name || "Versace",
+  ownernumber: process.env.Owner_Number || "27787896221",
   adress: process.env.Continent || "Asia, India, Assam",
   timezone: process.env.TimeZone || "Asia/Kolkata", 
   instagramId: process.env.Insta || "8.08_only_mine",
@@ -124,7 +124,7 @@ module.exports = {
   auto_read_status : process.env.AUTO_READ_STATUS || "true",
   alwaysonline: process.env.ALWAYS_ONLINE || "true", 
   readmessage: process.env.READ_MESSAGE || "true", 
-  auto_status_saver: process.env.AUTO_STATUS_SAVER || "true",
+  auto_status_saver: process.env.AUTO_STATUS_SAVER || "false",
   image_1: readFileSync('./lib/Assets/image_1.jpg'), // Thumbnail for allmenu command
   image_2: readFileSync('./lib/Assets/image_2.jpg'), // null image
   image_3: readFileSync("./lib/Assets/image_3.jpg"), // Thumbnail for Dashboard
